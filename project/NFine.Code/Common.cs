@@ -111,7 +111,7 @@ namespace NFine.Code
         {
             return str.Substring(0, str.LastIndexOf(","));
         }
-        /// <summary>
+        ///  <summary>
         /// 删除最后结尾的指定字符后的字符
         /// </summary>
         public static string DelLastChar(string str, string strchar)
